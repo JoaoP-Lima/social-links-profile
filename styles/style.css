@@ -1,6 +1,7 @@
 @font-face {
   font-family: Inter;
   src: url(../assets/fonts/static/Inter-Regular.ttf) format("truetype");
+  font-weight: 400;
 }
 
 * {
@@ -53,7 +54,6 @@ body {
 }
 .card__user-description {
   font-size: clamp(10px, 3vw, 14px);
-  font-weight: 600;
 }
 
 .card__social-list {
